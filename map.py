@@ -46,3 +46,12 @@ def add_taxes(item):
 new_items = list(map(add_taxes, items))
 print(new_items)
 print(items) #Se modifica el diccionario original
+
+#Map con inmutabilidad
+def add_taxes2(item):
+    new_item = item.copy()
+    new_item['taxes'] = new_item['price'] * 0.19
+    return new_item
+
+new_items2 = list(map(add_taxes2, items))
+print(new_items2)
