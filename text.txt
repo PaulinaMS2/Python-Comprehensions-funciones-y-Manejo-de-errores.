@@ -1,8 +1,3 @@
-Line 1
-Line 2
-Line 3
-Paulina
 
-Muñoz
-
-Saldarriaga
+ Nuevas cosas en el archivo
+ Nuevas cosas en el archivo otra vez
